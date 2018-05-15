@@ -1,7 +1,5 @@
 # CMSC389K: Full-stack Web Development with Node.js
-
 ![Imgur](https://i.imgur.com/ArN48vy.png)
-
 
 ## Course Description
 This course provides a comprehensive, practical introduction to modern
@@ -37,13 +35,21 @@ and [Chirag Shankar](https://www.linkedin.com/in/chirag-shankar/)
         - DOM Manipulation
         - Event Handling
     - jQuery + AJAX
+        - Dynamic interaction with the DOM
+        - Making API Calls
 - Node.js
     - File manipulation
     - Modules
-- Server Applications
-    - Writing server applications in Node.js and Express
-    - MongoDB
-    - Deploying and hosting server applications
+- Express.js
+    - API (Application Program Interface)
+    - Web Application Framework for Node.js
+- MongoDB
+    - Nonrelational Database
+    - Persistent Data
+- Socket.io
+    - Real-time communication between server and clients
+- Now
+    - Application deployment
 
 ## Grading
 Grades will be maintained on the CS Department
@@ -114,7 +120,6 @@ TAs:
 [Benny Cheng] - bcheng1996@gmail.com
 
 [Chirag Shankar] - chishankar@gmail.com
-
 
 ## Excused Absence and Academic Accommodations
 See the section titled "Attendance, Absences, or Missed Assignments" available
