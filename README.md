@@ -79,15 +79,15 @@ afterwards.
 | 4 (9/21) | Node.js | |
 | 5 (9/28) | Express.js | P3 DUE, Pokémon API (P4) |
 | 6 (10/5) | Express.js (cont.) | |
-| 7 (10/12) | Express.js (cont.) | P4 DUE |
+| 7 (10/12) | Express.js (cont.) / Handlebars.js | P4 DUE |
 | 8 (10/19) | Midterm | Representatives Website (P5) |
-| 9 (10/26) | Final Project | Databases |
-| 10 (11/2) | Hosting + Git | |
-| 11 (11/9) | Mega Boilerplate | |
-| 12 (11/16) | Web Sockets | |
+| 9 (10/26) | Databases | Final Project OUT |
+| 10 (11/2) | Web Sockets | |
+| 11 (11/9) | Hosting + Git + Express state| |
+| 12 (11/16) | Javscript Libraries (Chart.js / Typed.js) | |
 | 13 (11/23) | THANKSGIVING BREAK 
 | 14 (11/23) | Deploying via Now | |
-| 15 (11/30) | FILLER
+| 15 (11/30) | TBD
 | 16 (12/7) | Presentations | Final Project DUE |
 
 ## Projects
