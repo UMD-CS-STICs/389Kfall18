@@ -81,9 +81,9 @@ afterwards.
 | 6 (10/5) | Express.js (cont.) | |
 | 7 (10/12) | Express.js (cont.) / Handlebars.js | P4 DUE |
 | 8 (10/19) | Midterm | Representatives Website (P5) |
-| 9 (10/26) | Databases | Final Project OUT |
-| 10 (11/2) | Web Sockets | |
-| 11 (11/9) | Hosting + Git + Express state| |
+| 9 (10/26) | Databases |  |
+| 10 (11/2) | Web Sockets | P5 DUE |
+| 11 (11/9) | Hosting + Git + Express state| Final Project OUT |
 | 12 (11/16) | Javscript Libraries (Chart.js / Typed.js) | |
 | 13 (11/23) | THANKSGIVING BREAK 
 | 14 (11/23) | Deploying via Now | |
