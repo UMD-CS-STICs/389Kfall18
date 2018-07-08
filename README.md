@@ -46,10 +46,15 @@ and [Chirag Shankar](https://www.linkedin.com/in/chirag-shankar/)
 - MongoDB
     - Nonrelational Database
     - Persistent Data
+- Javascript Libraries
+    - Chart.js
+    - Typed.js
 - Socket.io
     - Real-time communication between server and clients
 - Now
     - Application deployment
+- Git
+    - Version Control
 
 ## Grading
 Grades will be maintained on the CS Department
@@ -149,5 +154,3 @@ If you have a suggestion for improving this class, don't hesitate to tell the
 instructor or TAs during the semester. At the end of the semester, please don't
 forget to provide your feedback using the campus-wide CourseEvalUM system. Your
 comments will help make this class better.
-
-###### Thanks to the writers of [this](https://www.cs.umd.edu/class/fall2016/cmsc330/syllabus.shtml) syllabus for the wording of much of this document and to [Ishaan Parikh](https://www.linkedin.com/in/iparikh) and [Sashank Thupukari](https://www.linkedin.com/in/sthupukari/) for creating this course and the STICS program.
