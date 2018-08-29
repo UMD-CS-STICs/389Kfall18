@@ -101,7 +101,7 @@ each project assignment. Projects may not be submitted by any other means
 test your program and verify that it works properly before submitting. All
 projects are due at 11:59 PM on the day indicated on the project assignment.
 
-Projects may be submitted up to 24 hours late for a 10% penalty. If you submit
+Projects may be submitted up to 24 hours late for a 10% penalty and will not be accepted afterwards unless you talked with us for an extension. If you submit
 both on-time & late, your project will receive the maximum of the
 penalty-adjusted scores. You may submit multiple times.
 
