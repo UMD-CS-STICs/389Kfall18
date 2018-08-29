@@ -88,10 +88,10 @@ afterwards.
 | 8 (10/19) | Midterm | Representatives Website (P5) |
 | 9 (10/26) | Databases |  |
 | 10 (11/2) | Web Sockets | P5 DUE |
-| 11 (11/9) | Hosting + Git + Express state| Final Project OUT |
-| 12 (11/16) | Javscript Libraries (Chart.js / Typed.js) | |
+| 11 (11/9) | Javscript Libraries (Chart.js / Typed.js)| Final Project OUT |
+| 12 (11/16) |  Deploy via NOW| |
 | 13 (11/23) | THANKSGIVING BREAK 
-| 14 (11/30) | Deploying via Now
+| 14 (11/30) | Hosting + Git + Express state| 
 | 15 (12/7) | Presentations | Final Project DUE |
 
 ## Projects
