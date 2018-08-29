@@ -91,9 +91,8 @@ afterwards.
 | 11 (11/9) | Hosting + Git + Express state| Final Project OUT |
 | 12 (11/16) | Javscript Libraries (Chart.js / Typed.js) | |
 | 13 (11/23) | THANKSGIVING BREAK 
-| 14 (11/23) | Deploying via Now | |
-| 15 (11/30) | TBD
-| 16 (12/7) | Presentations | Final Project DUE |
+| 14 (11/30) | Deploying via Now
+| 15 (12/7) | Presentations | Final Project DUE |
 
 ## Projects
 Projects must be submitted electronically following the instructions given in
