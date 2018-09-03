@@ -1,4 +1,4 @@
-
+Benny
 # Week 2: JavaScript
 --------------------
 
@@ -95,7 +95,7 @@ is a valid array.
 First, we can create an array of student names:
 
 ```javascript
-var names = ['Allen', 'Tim', 'Dickerson'];
+var names = ['Benny', 'Chirag', 'Dickerson'];
 ```
 
 If we need to print everyone's names, we can use a for loop. We can use a
@@ -103,8 +103,8 @@ standard for loop or a for-each loop.
 
 ```javascript
 // Output:
-// "Allen"
-// "Tim"
+// "Benny"
+// "Chirag"
 // "Dickerson"
 for (var i = 0; i < names.length; i++) {
     console.log(names[i]);
@@ -119,8 +119,8 @@ for (var i in names) {
 }
 
 // Output:
-// "Allen"
-// "Tim"
+// "Benny"
+// "Chirag"
 // "Dickerson"
 for (var i in names) {
     console.log(arr[i]);
@@ -128,8 +128,8 @@ for (var i in names) {
 
 // Note: Introduced in ES2015
 // Output:
-// "Allen"
-// "Tim"
+// "Benny"
+// "Chirag"
 // "Dickerson"
 for (var i of names) {
 	console.log(i);
@@ -145,7 +145,7 @@ function greet(name) {
     console.log('Hello ' + name);
 }
 
-greet('Allen'); // prints "Hello Allen"
+greet('Benny'); // prints "Hello Benny"
 ```
 
 Notice how we do not have to specify the type of the parameter. JavaScript is a
@@ -165,8 +165,8 @@ function printFirstLetter(name) {
     console.log(name.charAt(0));
 }
 
-reverser('Allen'); // prints "nellA"
-printFirstLetter('Allen'); // prints 'A'
+reverser('Benny'); // prints "ynneB"
+printFirstLetter('Benny'); // prints 'B'
 printFirstLetter(); // TypeError: Cannot read property 'charAt' of undefined
 ```
 
@@ -246,10 +246,10 @@ function reverser(name) {
 }
 
 function applyToArray(operator) {
-    operator('Tim');
+    operator('Chirag');
 }
 
-applyToArray(reverser); // Logs "miT"
+applyToArray(reverser); // Logs "garihC"
 ```
 
 Notice how `operator` inside `applyToArray` refers to `reverser`, since we
@@ -275,9 +275,9 @@ function applyToArray(arr, operator) {
     operator(name);
 }
 
-var names = ['Allen', 'Tim', 'Dickerson'];
-applyToArray(names, reverser); // Logs "nellA"
-applyToArray(names, greet); // Logs "Hello Allen"
+var names = ['Benny', 'Chirag', 'Dickerson'];
+applyToArray(names, reverser); // Logs "ynneB"
+applyToArray(names, greet); // Logs "Hello Benny"
 ```
 
 We can change the functionality of `applyToArray` just by passing in a different
@@ -296,11 +296,11 @@ function applyToArray(arr, operator) {
     }
 }
 
-var names = ['Allen', 'Tim', 'Dickerson'];
+var names = ['Benny', 'Chirag', 'Dickerson'];
 applyToArray(names, reverser);
 // Output:
-// nellA
-// miT
+// ynneB
+// garihC
 // nosrekciD
 ```
 
@@ -359,20 +359,20 @@ var people = {};
 ```
 Now, we need to insert data into the object.
 ```javascript
-people.Allen = 20;
-people.Tim = 21;
+people.Benny = 20;
+people.Chirag = 21;
 people.Dickerson = 90;
 
 // The following also works.
 
-people['Allen'] = 20;
-people['Tim'] = 21;
+people['Benny'] = 20;
+people['Chirag'] = 21;
 people['Dickerson'] = 90;
 
-console.log(people); // logs: { Allen: 20, Tim: 21, Dickerson: 90 }
+console.log(people); // logs: { Benny: 20, Chirag: 21, Dickerson: 90 }
 ```
 
-Note that `Allen`, `Tim`, and `Dickerson` are the fields of the `people` object.
+Note that `Benny`, `Chirag`, and `Dickerson` are the fields of the `people` object.
 In general, the best practice for accessing fields is to use the dot notation
 for static/hardcoded fields and the bracket notation for dynamic field access.
 
@@ -380,19 +380,19 @@ Similarly, we could have created the object like this.
 ```javascript
 // Just like a hash with key/value pairs.
 var people = {
-    Allen: 20,
-    Tim: 21,
+    Benny: 20,
+    Chirag: 21,
     Dickerson: 90
 };
 ```
 Objects can also be nested within one another. Let's take a look in this context.
 ```javascript
 var people = {
-    Allen: {
+    Benny: {
         age: 20,
         gender: 'male'
     },
-    Tim: {
+    Chirag: {
         age: 21,
         gender: 'male'
     },
@@ -412,8 +412,8 @@ we did in arrays.
 
 ```javascript
 // Output:
-// Allen
-// Tim
+// Benny
+// Chirag
 // Dickerson
 for (var name in people) {
     console.log(name);
@@ -423,8 +423,8 @@ for (var name in people) {
 Now, we will print out all of the ages of everyone we have saved.
 ```javascript
 // Output:
-// Allen's age is 20.
-// Tim's age is 21.
+// Benny's age is 20.
+// Chirag's age is 21.
 // Dickerson's age is 90.
 for (var name in people) {
 	// Note this string interpolation / string literal feature - introduced in ES2015!
