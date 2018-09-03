@@ -123,7 +123,7 @@ for (var i in names) {
 // "Chirag"
 // "Dickerson"
 for (var i in names) {
-    console.log(arr[i]);
+    console.log(names[i]);
 }
 
 // Note: Introduced in ES2015
