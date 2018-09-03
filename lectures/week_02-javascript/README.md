@@ -208,11 +208,11 @@ function bye() {
     console.log('bye');
 }
 
-function allen() {
-    console.log('allen');
+function benny() {
+    console.log('benny');
 }
 
-var funcs = [hi, bye, allen];
+var funcs = [hi, bye, benny];
 
 // Exercise: Iterate through this array, and execute each function.
 ```
@@ -229,7 +229,7 @@ var funcs = [
         console.log('bye');
     },
     function() {
-        console.log('allen');
+        console.log('benny');
     }
 ];
 ```
