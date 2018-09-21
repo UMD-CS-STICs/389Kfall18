@@ -20,42 +20,14 @@
             </li>
         </ul>
     </header>
-    <article >
+    <article>
         <h3>Search School Name:</h3>
-        <input id="school_field" type="text" placeholder="Ex: CMSC">
-        <button id="search_button">Search! </button>
-        <button id="clear"> Clear Results </button>
-        <article id="articles-container"></article>
+        <input type="text" placeholder="Ex: CMSC">
+        <button>Search! </button>
+        <button> Clear Results </button>
     </article>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.js"></script>
     <script>
-        $("#search_button").on("click", function () {
-            var school = $("#school_field").val();
-            $.get("https://api.umd.io/v0/courses?dept_id=" + school, function (data) {
-
-                if (data.length == 0) {
-                    alert("Oops, can't find " + school);
-                } else {
-                    for (var i = 0; i < data.length; i++) {
-                        var currentClass = data[i];
-                        $("#articles-container").append("<article><h2>" + currentClass.course_id +
-                            " : " + currentClass.name + "</h2><p> " + currentClass.description +
-                            "</p></article>")
-                    }
-                }
-
-            });
-
-        });
-
-        $("#clear").on('click',function(){
-            $("#articles-container").empty();
-        });
-        
-
-        $("#school_field").on('keyup',function(){
-        });
-
     </script>
 </body>
 
