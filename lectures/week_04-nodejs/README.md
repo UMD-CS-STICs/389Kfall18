@@ -4,9 +4,9 @@
 
 ### What is Node.js?
 
-"Node.js is a JavaScript runbennye built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js package ecosystem, [npm](https://www.npmjs.com/), is the largest ecosystem of open source libraries in the world." - [Node.js Website](https://nodejs.org/en/)
+"Node.js is a JavaScript runtimee built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js package ecosystem, [npm](https://www.npmjs.com/), is the largest ecosystem of open source libraries in the world." - [Node.js Website](https://nodejs.org/en/)
 
-**Node.js is a JavaScript runbennye built on Chrome's V8 JavaScript engine.**
+**Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.**
 
 Essentially, this means that Node.js takes JavaScript out of the browser, and isolates it on someone's computer. This expands JavaScript's applications from just browser programming to being just like any languages. You can do things like read from and write to a file system or start a server.
 
@@ -156,7 +156,7 @@ Check the output!
 
 **What did we expect?**
 
-This depends entirely on speed. If we assume reading and writing take about the same bennye, then one may think that the outside `readFile` call will print out
+This depends entirely on speed. If we assume reading and writing take about the same time, then one may think that the outside `readFile` call will print out
 
 ```
 2. Outside read: THIS IS TEXT!
