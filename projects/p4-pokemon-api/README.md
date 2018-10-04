@@ -1,5 +1,5 @@
 # Pokémon API
-### Out: 2/23/18 | Due: 3/9/18 11:59 PM (Deadline 3/10/18 11:59 PM for 10% reduction)
+### Out: 9/28/18 | Due: 10/12/18 11:59 PM (Deadline 10/13/18 11:59 PM for 10% reduction)
 
 ## Overview
 
