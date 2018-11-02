@@ -1,5 +1,5 @@
 # House of Representatives
-### Out: 3/10/18 | Due: 3/30/18 11:59 PM (Deadline 3/31/18 11:59 PM for 10% reduction)
+### Out: 10/15/18 | Due: 11/2/18 11:59 PM (Deadline 11/3/18 11:59 PM for 10% reduction)
 
 ## Overview
 

@@ -1,8 +1,11 @@
 <div class="nav">
-    <h1>My Names's Blog</h1>
+    <h1>CMSC389k's Blog</h1>
     <div class="tags">
-        <a href="/tag/tagname" class="tag">tagname</a>
-        <a href="/tag/tagname" class="tag">tagname</a>
+        {{#if tags}}
+            {{#each tags}}
+                <a href = "/tag/{{this}}" class="tag">{{this}}</a>
+            {{/each}}
+        {{/if}}
     </div>
 </div>
 <br>
