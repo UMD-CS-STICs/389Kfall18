@@ -1,4 +1,4 @@
-# Week 12: Web Sockets
+# Week 10: Web Sockets
 
 ### What is a web socket?
 
