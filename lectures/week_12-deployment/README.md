@@ -73,3 +73,19 @@ If you wish to have Heroku automatically deploy, choose the `Enable Automatic De
 
 Note: You may need to manaully deploy from time to time. You can find the option to do so at the very bottom in the `Manual deploy` section. 
 
+## index.js Changes
+------------------------ 
+Notice how in our index.js we originally had:
+```
+app.listen(3000, function() {
+    console.log('Listening!');
+});
+```
+This tells our local instance to listen on a specific port that we want assigned to it. Since this is our local machine we can designate our application to preoccupy a certain port. Now when we are deploying, the deployment service will instead assign a port to the end user since not all applications can run on port 3000. So we need to change our code to compensate for that:
+```
+app.listen(process.env.PORT || 3000, function() {
+    console.log('Listening!');
+});
+```
+This tells our server to either use a port that the enviroment provides or we statically assign one. 
+
