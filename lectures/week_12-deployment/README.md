@@ -63,7 +63,7 @@ And it will turn your `.env` file into a `-e` command automatically.
 # Deploying using `Heroku`
 Visit the Heroku website here: https://www.heroku.com/ and register for an account. 
 
-Go to your dashboard page and in the top right corner there should be a `New`, select `Create new app`.
+Go to your dashboard page and in the top right corner there should be a `New` button, click on it and select `Create new app`.
 
 Name your new application. This will be what users will enter into the url to get to your application. You can change this later in the `Settings` tab of that project later.
 
