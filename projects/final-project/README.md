@@ -1,5 +1,5 @@
 # Final Project
-#### Out: 3/30/18 | Deadline: 5/4/18 10:00 AM
+#### Out: 11/09/18 | Deadline: 12/07/18 1:00 PM
 
 ### Overview
 
@@ -222,7 +222,7 @@ There is a provided a shell that has all the dependencies you need set up. We ha
 
 We will be using [now](https://zeit.co/now) to submit one link per project.
 
-Find instructions on how to deploy a project using now here: [now tutorial](https://github.com/UMD-CS-STICs/389Kspring18/tree/master/lectures/week_13-deployment)
+Find instructions on how to deploy a project using now here: [now tutorial](https://github.com/UMD-CS-STICs/389Kfall18/tree/master/lectures/week_12-deployment)
 
 Make sure you use the `-e` (as specified in the tutorial) to save your mlab MongoDB URI enviroment variable.
 
