@@ -5,3 +5,21 @@
         {{/each}}
     </ul>
 </div>
+
+<div class="container">
+  <h1>Exposed friends</h1>
+  <ul id="friends">
+  </ul>
+</div>
+
+<script>
+  {{{state}}}
+  console.log(App.API_KEYS)
+  var my_friends = App.friends;
+  for(friend in my_friends){
+    var my_node = document.createElement('li');
+    var element = document.createTextNode(my_friends[friend]);
+    my_node.appendChild(element)
+    document.getElementById('friends').append(my_node)
+  }
+</script>

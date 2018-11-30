@@ -17,11 +17,14 @@ expstate.extend(app);
 app.set("state namespace", 'App');
 
 var API_KEYS = {
-	"GOOGLE_API_KEY": "102938120938123", 
+	"GOOGLE_API_KEY": "102938120938123",
 	"FACEBOOK_API_KEY": "12039812093",
 }
 
 app.expose(API_KEYS, "API_KEYS");
+app.expose(function(){
+	alert("exposing myself")
+}, 'expose');
 
 app.get("/", function(req, res) {
 
